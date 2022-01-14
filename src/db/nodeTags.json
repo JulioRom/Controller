@@ -1,0 +1,58 @@
+{
+  "nodeTags":[
+    {
+      "slotId": 1,
+      "tagsId": [
+        "ns=1;s=S7-TEST.Flags.S1_ASSIGNED_BL",
+        "ns=1;s=S7-TEST.Flags.S1_COMPLETE_BL",
+        "ns=1;s=S7-TEST.Flags.S1_TAKEOUT",
+        "ns=1;s=S7-TEST.Flags.S1_REMOVE"
+      ]
+    },
+    {
+      "slotId": 2,
+      "tagsId": [
+        "ns=1;s=S7-TEST.Flags.S2_ASSIGNED_BL",
+        "ns=1;s=S7-TEST.Flags.S2_COMPLETE_BL",
+        "ns=1;s=S7-TEST.Flags.S2_TAKEOUT",
+        "ns=1;s=S7-TEST.Flags.S2_REMOVE"
+      ]
+    },
+    {
+      "slotId": 3,
+      "tagsId": [
+        "ns=1;s=S7-TEST.Flags.S3_ASSIGNED_BL",
+        "ns=1;s=S7-TEST.Flags.S3_COMPLETE_BL",
+        "ns=1;s=S7-TEST.Flags.S3_TAKEOUT",
+        "ns=1;s=S7-TEST.Flags.S3_REMOVE"
+      ]
+    },
+    {
+      "slotId": 4,
+      "tagsId": [
+        "ns=1;s=S7-TEST.Flags.S4_ASSIGNED_BL",
+        "ns=1;s=S7-TEST.Flags.S4_COMPLETE_BL",
+        "ns=1;s=S7-TEST.Flags.S4_TAKEOUT",
+        "ns=1;s=S7-TEST.Flags.S4_REMOVE"
+      ]
+    },
+    {
+      "slotId": 5,
+      "tagsId": [
+        "ns=1;s=S7-TEST.Flags.S5_ASSIGNED_BL",
+        "ns=1;s=S7-TEST.Flags.S5_COMPLETE_BL",
+        "ns=1;s=S7-TEST.Flags.S5_TAKEOUT",
+        "ns=1;s=S7-TEST.Flags.S5_REMOVE"
+      ]
+    },
+    {
+      "slotId": 6,
+      "tagsId": [
+        "ns=1;s=S7-TEST.Flags.S6_ASSIGNED_BL",
+        "ns=1;s=S7-TEST.Flags.S6_COMPLETE_BL",
+        "ns=1;s=S7-TEST.Flags.S6_TAKEOUT",
+        "ns=1;s=S7-TEST.Flags.S6_REMOVE"
+      ]
+    }
+  ]
+}
