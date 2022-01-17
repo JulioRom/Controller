@@ -50,12 +50,25 @@ async function readAll() {
     logger.info("OPC cliente Connected(to read)");
     const session = await client.createSession();
     const getTags = getAllReadable()
-    console.log(getTags);
-    /* const maxAge = 0;
-    const nodeToRead = {
-      nodeId: ,
+    const maxAge = 0;
+    for (let index = 0; index < getTags.length; index++) {
+      const slot = getTags[index];
+      const tag =  slot.tagsId
+      const nodeToRead = {
+      nodeId: tag,
       attributeId: AttributeIds.Value,
-    }; */
+    };
+
+    // read the tag and keep the value 
+
+    //create an array of object with the info a return it back
+
+
+      
+    }
+
+    console.log(getTags);
+    
     
     await session.close();
     await client.disconnect();
