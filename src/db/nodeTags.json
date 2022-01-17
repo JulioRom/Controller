@@ -1,5 +1,5 @@
 {
-  "nodeTags":[
+  "writableTags":[
     {
       "slotId": 1,
       "tagsId": [
@@ -53,6 +53,32 @@
         "ns=1;s=S7-TEST.Flags.S6_TAKEOUT",
         "ns=1;s=S7-TEST.Flags.S6_REMOVE"
       ]
+    }
+  ],
+  "readableTags": [
+    {
+      "slotId": 1,
+      "tagsId": "ns=1;s=S7-TEST.Flags.S1_Output"
+    },
+    {
+      "slotId": 2,
+      "tagsId": "ns=1;s=S7-TEST.Flags.S2_Output"
+    },
+    {
+      "slotId": 3,
+      "tagsId": "ns=1;s=S7-TEST.Flags.S3_Output"
+    },
+    {
+      "slotId": 4,
+      "tagsId": "ns=1;s=S7-TEST.Flags.S4_Output"
+    },
+    {
+      "slotId": 5,
+      "tagsId": "ns=1;s=S7-TEST.Flags.S5_Output"
+    },
+    {
+      "slotId": 6,
+      "tagsId": "ns=1;s=S7-TEST.Flags.S6_Output"
     }
   ]
 }

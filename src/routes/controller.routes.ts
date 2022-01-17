@@ -1,5 +1,6 @@
 import { Express } from "express";
 import { writer } from "../controllers/writer";
+import { readerAll } from "../controllers/reader";
 
 function routes(app: Express) {
 
@@ -14,9 +15,7 @@ function routes(app: Express) {
    *          type: string
    *          description: Descripción del resultado de la operación
    *      required:
-   *        - reserve
-   *        - lpnAssociates
-   *        - reserveStatus
+   *        - data
    *      example:
    *        data: "SUCCESSFULLY_EXECUTED_METHOD"
    *    Response404:
@@ -66,6 +65,10 @@ function routes(app: Express) {
    *              $ref: '#/components/schemas/Response404'
    */
   app.post("/api/controller/:slotid/:methodid/:value", writer);
+
+
+
+  app.get("/api/controller/showAll", readerAll);
 
 }
 

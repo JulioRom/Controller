@@ -1,10 +1,9 @@
 import dataTags from "../db/nodeTags.json";
-import logger from "../utils/logger";
 
 export function getTags(slotid: number, method: number) {
   const slotId = slotid;
   const methodId = method;
-  const slots = dataTags.nodeTags;
+  const slots = dataTags.writableTags;
 
   const verifySlot = slots.find((slots) => slots.slotId === slotId);
   const verifyMethod = verifySlot?.tagsId[methodId];
@@ -12,6 +11,10 @@ export function getTags(slotid: number, method: number) {
   if (!verifySlot || !verifyMethod) {
     return "undefined";
   }
-
   return verifyMethod;
+}
+
+export function getAllReadable() {
+  const slots = dataTags.readableTags;
+  return slots;
 }

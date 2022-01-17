@@ -1,11 +1,11 @@
-import logger from "./logger";
+import logger from "../../utils/logger";
 import {
   OPCUAClient,
   MessageSecurityMode,
   SecurityPolicy,
   AttributeIds,
   StatusCodes,
-  DataType
+  DataType,
 } from "node-opcua-client";
 
 const endpointUrl = "opc.tcp://10.115.43.26:4840";
@@ -51,7 +51,19 @@ function Value(value: number) {
   }
 }
 
-async function connectOPC(nodeId: string, valueIn: number) {
+class OPCObject {
+  nodeID: string;
+  valueIN: number;
+  valueOUT: any;
+
+  constructor(nodeID: string, valueIN: number, valueOUT: any) {
+    this.nodeID = nodeID;
+    this.valueIN = valueIN;
+    this.valueOUT = valueOUT;
+  }
+}
+
+async function writeTag(nodeId: string, valueIn: number) {
   try {
     await client.connect(endpointUrl);
     logger.info("OPC cliente Connected");
@@ -66,12 +78,14 @@ async function connectOPC(nodeId: string, valueIn: number) {
     });
     await session.close();
     await client.disconnect();
-    logger.info("Session close and client Disconected")
-    logger.info(statusCode)
+    logger.info("Session close and client Disconected");
+    const objMessage = new OPCObject(nodeId, valueIn, Value(valueIn));
+    logger.info({ statusCode: statusCode.description, resume: objMessage });
+    return objMessage;
   } catch (error) {
     logger.error("Could not connect to OPC server, check your connection ...");
     process.exit(1);
   }
 }
 
-export default connectOPC;
+export default writeTag;
