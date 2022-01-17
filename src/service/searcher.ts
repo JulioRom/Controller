@@ -1,20 +1,17 @@
-import dataTags from "../db/nodeTags.json"
+import dataTags from "../db/nodeTags.json";
 import logger from "../utils/logger";
 
-export function getTags(slotid:number,method:number){
-    
-    const slotId = slotid;
-    const methodId = method;
-    const slots = dataTags.nodeTags
-    
-    const verifySlot = slots.find(slots => slots.slotId === slotId)
-    const verifyMethod = verifySlot?.tagsId[methodId]
+export function getTags(slotid: number, method: number) {
+  const slotId = slotid;
+  const methodId = method;
+  const slots = dataTags.nodeTags;
 
-    if (!verifySlot || !verifyMethod) {
-        //logger.info("slot or method not found");
-        return "undefined"
-    }
+  const verifySlot = slots.find((slots) => slots.slotId === slotId);
+  const verifyMethod = verifySlot?.tagsId[methodId];
 
-    return verifyMethod
+  if (!verifySlot || !verifyMethod) {
+    return "undefined";
+  }
 
+  return verifyMethod;
 }

@@ -7,30 +7,29 @@ function routes(app: Express) {
    * @swagger
    * components:
    *  schemas:
-   *    Response:
+   *    Response200:
    *      type: object
    *      properties:
-   *        reserve:
+   *        data:
    *          type: string
-   *          description: Reserva asociada a lpns
-   *        lpnAssociates:
-   *          type: array of strings
-   *          description: lpns asociados a la reserva
-   *        reserveStatus:
-   *          type: string
-   *          description: estado de la reserva
+   *          description: Descripción del resultado de la operación
    *      required:
    *        - reserve
    *        - lpnAssociates
    *        - reserveStatus
    *      example:
-   *        reserve: "ABC4442"
-   *        lpnAssociates: 
-   *          ["300400500600733331",
-   *           "300400500600733332",
-   *           "300400500600733333",
-   *           "300400500600733334"]
-   *        reserveStatus: "created"
+   *        data: "SUCCESSFULLY_EXECUTED_METHOD"
+   *    Response404:
+   *      type: object
+   *      properties:
+   *        error:
+   *          type: string
+   *          description: Descripción del error
+   *      required:
+   *        - error
+   *      example:
+   *        data: "SLOT_OR_METHOD_NOT_FOUND"
+   *        
    */
 
   /**
@@ -58,9 +57,13 @@ function routes(app: Express) {
    *         content:
    *          application/json:
    *           schema:
-   *              $ref: '#/components/schemas/Response'
+   *              $ref: '#/components/schemas/Response200'
    *       404:
-   *         description: Product not found
+   *         description: Error
+   *         content:
+   *          application/json:
+   *           schema:
+   *              $ref: '#/components/schemas/Response404'
    */
   app.post("/api/controller/:slotid/:methodid/:value", writer);
 

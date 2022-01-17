@@ -51,7 +51,7 @@ function Value(value: number) {
   }
 }
 
-async function connectOPC(nodeId: string, value: number) {
+async function connectOPC(nodeId: string, valueIn: number) {
   try {
     await client.connect(endpointUrl);
     logger.info("OPC cliente Connected");
@@ -61,7 +61,7 @@ async function connectOPC(nodeId: string, value: number) {
       attributeId: AttributeIds.Value,
       value: {
         statusCode: StatusCodes.Good,
-        value: Value(value),
+        value: Value(valueIn),
       },
     });
     await session.close();
