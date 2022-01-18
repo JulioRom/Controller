@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "a0f6c29a-aba4-420b-bed2-4e2703e6c786",
+		"name": "Controller",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Escritura de tag",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5500/api/controller/1/0/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5500",
+					"path": [
+						"api",
+						"controller",
+						"1",
+						"0",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lectura del estado de todos los slots",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5500/api/controller/showAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5500",
+					"path": [
+						"api",
+						"controller",
+						"showAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lectura del estado de una luz en especifico",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5500/api/controller/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5500",
+					"path": [
+						"api",
+						"controller",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Documentación de la api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5500/docs.json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5500",
+					"path": [
+						"docs.json"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
