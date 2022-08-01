@@ -6,7 +6,7 @@ build
 Dist
 
 # environment variables
-.env
+.env.development
 
 #workspace vs code
 conso.code-workspace
