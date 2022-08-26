@@ -5,7 +5,7 @@ import {
   SecurityPolicy,
   AttributeIds,
 } from "node-opcua-client";
-import { getAllReadable } from "../searcher";
+import { getAllReadable } from "../searcher.service";
 
 const endpointUrl = "opc.tcp://10.115.43.26:4840";
 

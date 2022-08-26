@@ -1,6 +1,6 @@
 import { Express } from "express";
-import { writer } from "../controllers/writer";
-import { readerAll, readOne } from "../controllers/reader";
+import { writer } from "../controllers/writer.controller";
+import { readerAll, readOne } from "../controllers/reader.controller";
 
 function routes(app: Express) {
 
@@ -55,41 +55,48 @@ function routes(app: Express) {
    *            Node: ns=1;s=S7-TEST.Flags.S1_Output
    *        
    */
-
   /**
-   * @swagger
-   * /api/controller/{slotid}/{methodid}/{value}:
-   *  post:
-   *     summary: Controllador de slots
-   *     tags:  [Controller]
-   *     parameters:
-   *      - name: slotid
-   *        in: path
-   *        description: Id del slot
-   *        required: true
-   *      - name: methodid
-   *        in: path
-   *        description: Id del metodo [ 0, 1, 2, 3 ] [ asignado, completo, intermitente, apagar ]
-   *        required: true
-   *      - name: value
-   *        in: path
-   *        description: Estado del tag booleano [ 0 1 ]
-   *        required: true
-   *     responses:
-   *       200:
-   *         description: Success
-   *         content:
-   *          application/json:
-   *           schema:
-   *              $ref: '#/components/schemas/Response200'
-   *       404:
-   *         description: Error
-   *         content:
-   *          application/json:
-   *           schema:
-   *              $ref: '#/components/schemas/Response404'
-   */
-  app.post("/api/controller/:slotid/:methodid/:value", writer);
+     * @swagger
+     * /api/controller/rack/{rackid}/side/{sideid}/slot/{slotid}/method/{methodid}/value/{value}:
+     *  post:
+     *     summary: Controlador de slots
+     *     tags:  [Controller]
+     *     parameters:
+     *      - name: rackid
+     *        in: path
+     *        description: Id del rack [1 2 3 4]
+     *        required: true
+     *      - name: sideid
+     *        in: path
+     *        description: Cara del rack [0 1] [front back]
+     *        required: true
+     *      - name: slotid
+     *        in: path
+     *        description: Id del slot [1 2 3 4]
+     *        required: true
+     *      - name: methodid
+     *        in: path
+     *        description: Id del metodo [ 0, 1, 2, 3 ] [ asignado, completo, intermitente, apagar ]
+     *        required: true
+     *      - name: value
+     *        in: path
+     *        description: Estado del tag booleano [ 0 1 ]
+     *        required: true
+     *     responses:
+     *       200:
+     *         description: Success
+     *         content:
+     *          application/json:
+     *           schema:
+     *              $ref: '#/components/schemas/Response200'
+     *       404:
+     *         description: Error
+     *         content:
+     *          application/json:
+     *           schema:
+     *              $ref: '#/components/schemas/Response404'
+     */
+  app.post("/api/controller/rack/:rackid/side/:side/slot/:slotid/method/:methodid/value/:value", writer);
 
 
 

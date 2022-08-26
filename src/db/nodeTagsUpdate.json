@@ -1,0 +1,482 @@
+{
+    "writableTags": [
+        {
+            "rackId": 1,
+            "frontSlots": [
+                {
+                    "slotId": 1,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S1_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S1_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S1_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S1_REMOVE"
+                    ],
+                    "meta": { "rackId": 1, "side": "front" }
+                },
+                {
+                    "slotId": 2,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S2_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S2_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S2_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S2_REMOVE"
+                    ],
+                    "meta": { "rackId": 1, "side": "front" }
+                },
+                {
+                    "slotId": 3,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S3_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S3_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S3_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S3_REMOVE"
+                    ],
+                    "meta": { "rackId": 1, "side": "front" }
+                },
+                {
+                    "slotId": 4,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S4_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S4_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S4_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S4_REMOVE"
+                    ],
+                    "meta": { "rackId": 1, "side": "front" }
+                }
+            ],
+            "backSlots": [
+                {
+                    "slotId": 1,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S5_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S5_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S5_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S5_REMOVE"
+                    ],
+                    "meta": { "rackId": 1, "side": "back" }
+                },
+                {
+                    "slotId": 2,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S6_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S6_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S6_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S6_REMOVE"
+                    ],
+                    "meta": { "rackId": 1, "side": "back" }
+                },
+                {
+                    "slotId": 3,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S7_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S7_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S7_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S7_REMOVE"
+                    ],
+                    "meta": { "rackId": 1, "side": "back" }
+                },
+                {
+                    "slotId": 4,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S8_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S8_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S8_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S8_REMOVE"
+                    ],
+                    "meta": { "rackId": 1, "side": "back" }
+                }
+            ]
+        },
+        {
+            "rackId": 2,
+            "frontSlots": [
+                {
+                    "slotId": 1,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S9_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S9_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S9_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S9_REMOVE"
+                    ],
+                    "meta": { "rackId": 2, "side": "front" }
+                },
+                {
+                    "slotId": 2,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S10_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S10_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S10_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S10_REMOVE"
+                    ],
+                    "meta": { "rackId": 2, "side": "front" }
+                },
+                {
+                    "slotId": 3,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S11_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S11_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S11_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S11_REMOVE"
+                    ],
+                    "meta": { "rackId": 2, "side": "front" }
+                },
+                {
+                    "slotId": 4,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S12_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S12_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S12_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S12_REMOVE"
+                    ],
+                    "meta": { "rackId": 2, "side": "front" }
+                }
+            ],
+            "backSlots": [
+                {
+                    "slotId": 1,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S13_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S13_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S13_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S13_REMOVE"
+                    ],
+                    "meta": { "rackId": 2, "side": "back" }
+                },
+                {
+                    "slotId": 2,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S14_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S14_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S14_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S14_REMOVE"
+                    ],
+                    "meta": { "rackId": 2, "side": "back" }
+                },
+                {
+                    "slotId": 3,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S15_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S15_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S15_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S15_REMOVE"
+                    ],
+                    "meta": { "rackId": 2, "side": "back" }
+                },
+                {
+                    "slotId": 4,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S16_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S16_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S16_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S16_REMOVE"
+                    ],
+                    "meta": { "rackId": 2, "side": "back" }
+                }
+            ]
+        },
+        {
+            "rackId": 3,
+            "frontSlots": [
+                {
+                    "slotId": 1,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S17_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S17_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S17_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S17_REMOVE"
+                    ],
+                    "meta": { "rackId": 3, "side": "front" }
+                },
+                {
+                    "slotId": 2,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S18_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S18_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S18_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S18_REMOVE"
+                    ],
+                    "meta": { "rackId": 3, "side": "front" }
+                },
+                {
+                    "slotId": 3,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S19_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S19_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S19_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S19_REMOVE"
+                    ],
+                    "meta": { "rackId": 3, "side": "front" }
+                },
+                {
+                    "slotId": 4,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S20_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S20_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S20_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S20_REMOVE"
+                    ],
+                    "meta": { "rackId": 3, "side": "front" }
+                }
+            ],
+            "backSlots": [
+                {
+                    "slotId": 1,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S21_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S21_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S21_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S21_REMOVE"
+                    ],
+                    "meta": { "rackId": 3, "side": "back" }
+                },
+                {
+                    "slotId": 2,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S22_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S22_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S22_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S22_REMOVE"
+                    ],
+                    "meta": { "rackId": 3, "side": "back" }
+                },
+                {
+                    "slotId": 3,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S23_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S23_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S23_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S23_REMOVE"
+                    ],
+                    "meta": { "rackId": 3, "side": "back" }
+                },
+                {
+                    "slotId": 4,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S24_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S24_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S24_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S24_REMOVE"
+                    ],
+                    "meta": { "rackId": 3, "side": "back" }
+                }
+            ]
+        },
+        {
+            "rackId": 4,
+            "frontSlots": [
+                {
+                    "slotId": 1,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S25_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S25_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S25_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S25_REMOVE"
+                    ],
+                    "meta": { "rackId": 4, "side": "front" }
+                },
+                {
+                    "slotId": 2,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S26_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S26_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S26_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S26_REMOVE"
+                    ],
+                    "meta": { "rackId": 4, "side": "front" }
+                },
+                {
+                    "slotId": 3,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S27_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S27_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S27_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S27_REMOVE"
+                    ],
+                    "meta": { "rackId": 4, "side": "front" }
+                },
+                {
+                    "slotId": 4,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S28_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S28_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S28_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S28_REMOVE"
+                    ],
+                    "meta": { "rackId": 4, "side": "front" }
+                }
+            ],
+            "backSlots": [
+                {
+                    "slotId": 1,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S29_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S29_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S29_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S29_REMOVE"
+                    ],
+                    "meta": { "rackId": 4, "side": "back" }
+                },
+                {
+                    "slotId": 2,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S30_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S30_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S30_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S30_REMOVE"
+                    ],
+                    "meta": { "rackId": 4, "side": "back" }
+                },
+                {
+                    "slotId": 3,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S31_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S31_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S31_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S31_REMOVE"
+                    ],
+                    "meta": { "rackId": 4, "side": "back" }
+                },
+                {
+                    "slotId": 4,
+                    "tagsId": [
+                        "ns=1;s=S7-TEST.Flags.S32_ASSIGNED_BL",
+                        "ns=1;s=S7-TEST.Flags.S32_COMPLETE_BL",
+                        "ns=1;s=S7-TEST.Flags.S32_TAKEOUT",
+                        "ns=1;s=S7-TEST.Flags.S32_REMOVE"
+                    ],
+                    "meta": { "rackId": 4, "side": "back" }
+                }
+            ]
+        }
+    ],
+    "readableTags": [
+        {
+            "slotId": 1,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S1_Output"
+        },
+        {
+            "slotId": 2,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S2_Output"
+        },
+        {
+            "slotId": 3,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S3_Output"
+        },
+        {
+            "slotId": 4,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S4_Output"
+        },
+        {
+            "slotId": 5,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S5_Output"
+        },
+        {
+            "slotId": 6,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S6_Output"
+        },
+        {
+            "slotId": 7,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S7_Output"
+        },
+        {
+            "slotId": 8,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S8_Output"
+        },
+        {
+            "slotId": 9,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S9_Output"
+        },
+        {
+            "slotId": 10,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S10_Output"
+        },
+        {
+            "slotId": 11,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S11_Output"
+        },
+        {
+            "slotId": 12,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S12_Output"
+        },
+        {
+            "slotId": 13,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S13_Output"
+        },
+        {
+            "slotId": 14,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S14_Output"
+        },
+        {
+            "slotId": 15,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S15_Output"
+        },
+        {
+            "slotId": 16,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S16_Output"
+        },
+        {
+            "slotId": 17,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S17_Output"
+        },
+        {
+            "slotId": 18,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S18_Output"
+        },
+        {
+            "slotId": 19,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S19_Output"
+        },
+        {
+            "slotId": 20,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S20_Output"
+        },
+        {
+            "slotId": 21,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S21_Output"
+        },
+        {
+            "slotId": 22,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S22_Output"
+        },
+        {
+            "slotId": 23,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S23_Output"
+        },
+        {
+            "slotId": 24,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S24_Output"
+        },
+        {
+            "slotId": 25,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S25_Output"
+        },
+        {
+            "slotId": 26,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S26_Output"
+        },
+        {
+            "slotId": 27,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S27_Output"
+        },
+        {
+            "slotId": 28,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S28_Output"
+        },
+        {
+            "slotId": 29,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S29_Output"
+        },
+        {
+            "slotId": 30,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S30_Output"
+        },
+        {
+            "slotId": 31,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S31_Output"
+        },
+        {
+            "slotId": 32,
+            "tagsId": "ns=1;s=S7-TEST.Flags.S32_Output"
+        }
+    ]
+}

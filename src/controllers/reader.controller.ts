@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import logger from "../utils/logger";
 import * as read from "../service/ConnectionOPC/read.service";
-import { getReadable } from "../service/searcher";
+import { getReadable } from "../service/searcher.service";
 
 export async function readerAll(req: Request, res: Response) {
   try {
