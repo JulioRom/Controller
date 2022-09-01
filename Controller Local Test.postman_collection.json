@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "a0f6c29a-aba4-420b-bed2-4e2703e6c786",
-		"name": "Controller",
+		"_postman_id": "eb4b7d6c-d1a6-4be0-a200-3b26853e42f9",
+		"name": "Controller Local Test",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -11,18 +11,47 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5500/api/controller/1/0/1",
+					"raw": "http://localhost:6600/api/controller/rack/:rackid/side/:sideid/slot/:slotid/method/:methodid/value/:value",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "5500",
+					"port": "6600",
 					"path": [
 						"api",
 						"controller",
-						"1",
-						"0",
-						"1"
+						"rack",
+						":rackid",
+						"side",
+						":sideid",
+						"slot",
+						":slotid",
+						"method",
+						":methodid",
+						"value",
+						":value"
+					],
+					"variable": [
+						{
+							"key": "rackid",
+							"value": "1"
+						},
+						{
+							"key": "sideid",
+							"value": "0"
+						},
+						{
+							"key": "slotid",
+							"value": "3"
+						},
+						{
+							"key": "methodid",
+							"value": "0"
+						},
+						{
+							"key": "value",
+							"value": "1"
+						}
 					]
 				}
 			},
@@ -34,12 +63,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5500/api/controller/showAll",
+					"raw": "http://localhost:6600/api/controller/showAll",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "5500",
+					"port": "6600",
 					"path": [
 						"api",
 						"controller",
@@ -55,16 +84,19 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5500/api/controller/6",
+					"raw": "http://localhost:6600/api/controller/reader/1/0/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "5500",
+					"port": "6600",
 					"path": [
 						"api",
 						"controller",
-						"6"
+						"reader",
+						"1",
+						"0",
+						"1"
 					]
 				}
 			},
@@ -76,12 +108,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5500/docs.json",
+					"raw": "http://localhost:6600/docs.json",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "5500",
+					"port": "6600",
 					"path": [
 						"docs.json"
 					]
