@@ -15,8 +15,10 @@ export async function readerAll(req: Request, res: Response) {
 
 export async function readOne(req: Request, res: Response) {
   try {
-    const slot = parseInt(req.params.slotid);
-    const tag = getReadable(slot);
+    const rackId = parseInt(req.params.rack);
+    const sideId = parseInt(req.params.side);
+    const slotId = parseInt(req.params.slot);
+    const tag = getReadable(rackId,sideId,slotId);
 
     if (tag === "undefined") {
       logger.error("slot or method not found (reader)");
@@ -25,7 +27,7 @@ export async function readOne(req: Request, res: Response) {
     } else {
       const slotReaded = await read.readOnly(tag);
       const objRes = {
-        slotID: slot,
+        slotID: slotId,
         dataType: slotReaded.dataValue.value.dataType,
         Value: slotReaded.dataValue.value.value,
         Node: tag,

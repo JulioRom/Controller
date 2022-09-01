@@ -120,15 +120,23 @@ function routes(app: Express) {
 
   /**
    * @swagger
-   * /api/controller/{slotid}:
+   * /api/controller/reader/rack/{rack}/side/{side}/slot/{slot}:
    *  get:
    *     summary: Muestra el estado de la luz de un slot en especifico
    *     tags:  [oneSlot]
    *     parameters:
-   *      - name: slotid
+   *      - name: rack
    *        in: path
-   *        description: Id del slot
-   *        required: true 
+   *        description: Id del rack [1 2 3 4]
+   *        required: true
+   *      - name: side
+   *        in: path
+   *        description: Cara del rack [0 1] [front back]
+   *        required: true
+   *      - name: slot
+   *        in: path
+   *        description: Id del slot [1 2 3 4]
+   *        required: true
    *     responses:
    *       200:
    *         description: Success
@@ -137,7 +145,7 @@ function routes(app: Express) {
    *           schema:
    *              $ref: '#/components/schemas/ResponseReader'
    */
-  app.get("/api/controller/:slotid", readOne);
+  app.get("/api/controller/reader/rack/:rack/side/:side/slot/:slot", readOne);
 
 }
 

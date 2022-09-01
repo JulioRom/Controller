@@ -1,5 +1,5 @@
 {
-    "writableTags": [
+    "rackTags": [
         {
             "rackId": 1,
             "frontSlots": [
@@ -9,7 +9,8 @@
                         "ns=1;s=S7-TEST.Flags.S1_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S1_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S1_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S1_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S1_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S1_Output"
                     ],
                     "meta": { "rackId": 1, "side": "front" }
                 },
@@ -19,7 +20,8 @@
                         "ns=1;s=S7-TEST.Flags.S2_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S2_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S2_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S2_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S2_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S2_Output"
                     ],
                     "meta": { "rackId": 1, "side": "front" }
                 },
@@ -29,7 +31,8 @@
                         "ns=1;s=S7-TEST.Flags.S3_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S3_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S3_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S3_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S3_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S3_Output"
                     ],
                     "meta": { "rackId": 1, "side": "front" }
                 },
@@ -39,7 +42,8 @@
                         "ns=1;s=S7-TEST.Flags.S4_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S4_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S4_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S4_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S4_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S4_Output"
                     ],
                     "meta": { "rackId": 1, "side": "front" }
                 }
@@ -51,7 +55,8 @@
                         "ns=1;s=S7-TEST.Flags.S5_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S5_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S5_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S5_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S5_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S5_Output"
                     ],
                     "meta": { "rackId": 1, "side": "back" }
                 },
@@ -61,7 +66,8 @@
                         "ns=1;s=S7-TEST.Flags.S6_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S6_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S6_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S6_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S6_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S6_Output"
                     ],
                     "meta": { "rackId": 1, "side": "back" }
                 },
@@ -71,7 +77,8 @@
                         "ns=1;s=S7-TEST.Flags.S7_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S7_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S7_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S7_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S7_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S7_Output"
                     ],
                     "meta": { "rackId": 1, "side": "back" }
                 },
@@ -81,7 +88,8 @@
                         "ns=1;s=S7-TEST.Flags.S8_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S8_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S8_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S8_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S8_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S8_Output"
                     ],
                     "meta": { "rackId": 1, "side": "back" }
                 }
@@ -96,7 +104,8 @@
                         "ns=1;s=S7-TEST.Flags.S9_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S9_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S9_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S9_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S9_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S9_Output"
                     ],
                     "meta": { "rackId": 2, "side": "front" }
                 },
@@ -106,7 +115,8 @@
                         "ns=1;s=S7-TEST.Flags.S10_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S10_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S10_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S10_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S10_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S10_Output"
                     ],
                     "meta": { "rackId": 2, "side": "front" }
                 },
@@ -116,7 +126,8 @@
                         "ns=1;s=S7-TEST.Flags.S11_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S11_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S11_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S11_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S11_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S11_Output"
                     ],
                     "meta": { "rackId": 2, "side": "front" }
                 },
@@ -126,7 +137,8 @@
                         "ns=1;s=S7-TEST.Flags.S12_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S12_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S12_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S12_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S12_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S12_Output"
                     ],
                     "meta": { "rackId": 2, "side": "front" }
                 }
@@ -138,7 +150,8 @@
                         "ns=1;s=S7-TEST.Flags.S13_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S13_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S13_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S13_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S13_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S13_Output"
                     ],
                     "meta": { "rackId": 2, "side": "back" }
                 },
@@ -148,7 +161,8 @@
                         "ns=1;s=S7-TEST.Flags.S14_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S14_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S14_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S14_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S14_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S14_Output"
                     ],
                     "meta": { "rackId": 2, "side": "back" }
                 },
@@ -158,7 +172,8 @@
                         "ns=1;s=S7-TEST.Flags.S15_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S15_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S15_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S15_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S15_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S15_Output"
                     ],
                     "meta": { "rackId": 2, "side": "back" }
                 },
@@ -168,7 +183,8 @@
                         "ns=1;s=S7-TEST.Flags.S16_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S16_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S16_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S16_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S16_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S16_Output"
                     ],
                     "meta": { "rackId": 2, "side": "back" }
                 }
@@ -183,7 +199,8 @@
                         "ns=1;s=S7-TEST.Flags.S17_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S17_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S17_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S17_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S17_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S17_Output"
                     ],
                     "meta": { "rackId": 3, "side": "front" }
                 },
@@ -193,7 +210,8 @@
                         "ns=1;s=S7-TEST.Flags.S18_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S18_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S18_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S18_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S18_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S18_Output"
                     ],
                     "meta": { "rackId": 3, "side": "front" }
                 },
@@ -203,7 +221,8 @@
                         "ns=1;s=S7-TEST.Flags.S19_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S19_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S19_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S19_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S19_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S19_Output"
                     ],
                     "meta": { "rackId": 3, "side": "front" }
                 },
@@ -213,7 +232,8 @@
                         "ns=1;s=S7-TEST.Flags.S20_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S20_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S20_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S20_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S20_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S20_Output"
                     ],
                     "meta": { "rackId": 3, "side": "front" }
                 }
@@ -225,7 +245,8 @@
                         "ns=1;s=S7-TEST.Flags.S21_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S21_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S21_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S21_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S21_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S21_Output"
                     ],
                     "meta": { "rackId": 3, "side": "back" }
                 },
@@ -235,7 +256,8 @@
                         "ns=1;s=S7-TEST.Flags.S22_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S22_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S22_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S22_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S22_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S22_Output"
                     ],
                     "meta": { "rackId": 3, "side": "back" }
                 },
@@ -245,7 +267,8 @@
                         "ns=1;s=S7-TEST.Flags.S23_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S23_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S23_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S23_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S23_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S23_Output"
                     ],
                     "meta": { "rackId": 3, "side": "back" }
                 },
@@ -255,7 +278,8 @@
                         "ns=1;s=S7-TEST.Flags.S24_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S24_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S24_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S24_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S24_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S24_Output"
                     ],
                     "meta": { "rackId": 3, "side": "back" }
                 }
@@ -270,7 +294,8 @@
                         "ns=1;s=S7-TEST.Flags.S25_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S25_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S25_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S25_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S25_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S25_Output"
                     ],
                     "meta": { "rackId": 4, "side": "front" }
                 },
@@ -280,7 +305,8 @@
                         "ns=1;s=S7-TEST.Flags.S26_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S26_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S26_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S26_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S26_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S26_Output"
                     ],
                     "meta": { "rackId": 4, "side": "front" }
                 },
@@ -290,7 +316,8 @@
                         "ns=1;s=S7-TEST.Flags.S27_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S27_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S27_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S27_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S27_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S27_Output"
                     ],
                     "meta": { "rackId": 4, "side": "front" }
                 },
@@ -300,7 +327,8 @@
                         "ns=1;s=S7-TEST.Flags.S28_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S28_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S28_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S28_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S28_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S28_Output"
                     ],
                     "meta": { "rackId": 4, "side": "front" }
                 }
@@ -312,7 +340,8 @@
                         "ns=1;s=S7-TEST.Flags.S29_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S29_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S29_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S29_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S29_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S29_Output"
                     ],
                     "meta": { "rackId": 4, "side": "back" }
                 },
@@ -322,7 +351,8 @@
                         "ns=1;s=S7-TEST.Flags.S30_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S30_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S30_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S30_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S30_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S30_Output"
                     ],
                     "meta": { "rackId": 4, "side": "back" }
                 },
@@ -332,7 +362,8 @@
                         "ns=1;s=S7-TEST.Flags.S31_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S31_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S31_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S31_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S31_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S31_Output"
                     ],
                     "meta": { "rackId": 4, "side": "back" }
                 },
@@ -342,7 +373,8 @@
                         "ns=1;s=S7-TEST.Flags.S32_ASSIGNED_BL",
                         "ns=1;s=S7-TEST.Flags.S32_COMPLETE_BL",
                         "ns=1;s=S7-TEST.Flags.S32_TAKEOUT",
-                        "ns=1;s=S7-TEST.Flags.S32_REMOVE"
+                        "ns=1;s=S7-TEST.Flags.S32_REMOVE",
+                        "ns=1;s=S7-TEST.Flags.S32_Output"
                     ],
                     "meta": { "rackId": 4, "side": "back" }
                 }

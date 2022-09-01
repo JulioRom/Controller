@@ -14,8 +14,9 @@ export function getTags(
   const sideRack = side;
   const slotId = slotid;
   const methodId = method;
-  const racks = dataTags.writableTags;
+  const racks = dataTags.rackTags;
   var verifyRack = racks.find((racks) => racks.rackId === rackId);
+  var methodRange = methodId >= 4 || methodId < 0 ? undefined : methodId;
 
   if (sideRack === 0) {
     var verifySide =
@@ -32,7 +33,7 @@ export function getTags(
       ? undefined
       : verifySide.find((verifySide) => verifySide.slotId === slotId);
   const verifyMethod =
-    verifySlot === undefined ? undefined : verifySlot.tagsId[methodId];
+    verifySlot === undefined ? undefined : verifySlot.tagsId[methodRange!];
 
   if (!verifyRack || !verifySlot || !verifyMethod) {
     return "undefined";
@@ -46,14 +47,32 @@ export function getTags(
 }
 
 // OBTAIN TAG REQUESTED TO READ
-export function getReadable(slotid: number) {
+export function getReadable(rackid: number, sideid: number, slotid: number) {
+  const rackId = rackid;
+  const sideId = sideid;
   const slotId = slotid;
-  const slots = dataTags.readableTags;
+  const racks = dataTags.rackTags;
+  var verifyRack = racks.find((racks) => racks.rackId === rackId);
 
-  const verifySlot = slots.find((slots) => slots.slotId === slotId);
-  const verifyMethod = verifySlot?.tagsId;
+  if (sideId === 0) {
+    var verifySide =
+      verifyRack === undefined ? undefined : verifyRack.frontSlots;
+  } else if (sideId === 1) {
+    var verifySide =
+      verifyRack === undefined ? undefined : verifyRack.backSlots;
+  } else {
+    return "undefined";
+  }
 
-  if (!verifySlot || !verifyMethod) {
+  const verifySlot =
+    verifySide === undefined
+      ? undefined
+      : verifySide.find((verifySide) => verifySide.slotId === slotId);
+
+  const verifyMethod =
+    verifySlot === undefined ? undefined : verifySlot.tagsId.at(-1);
+
+  if (!verifyRack || !verifySlot || !verifyMethod) {
     return "undefined";
   }
   return verifyMethod;
